@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{
+    --dorado: #ffd700;
+    --preto: #000000;
+    --amarelo: #fcfc1a;
+    --branco: #ffffff;
+}
+
+nav{
+
+    width: 800px;
+    border: 2px groove var(--preto);
+    margin: auto;
+    padding: 12px;
+    background-color: var(--amarelo);
+}
+body {
+    background-color: var(--amarelo);
+}
+
+main{
+    border: 3px solid var(--preto);
+    width: 750px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 15px 8px 15px 8px;
+    box-shadow: 4px 3px 0px var(--preto);
+}
+a{
+    padding: 16px;
+}
